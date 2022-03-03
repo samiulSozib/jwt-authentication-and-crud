@@ -84,18 +84,18 @@ const HomePageComponent = () => {
                         <thead>
                             <tr>
                             <th></th>
-                            <th>Title</th>
-                            <th>Description</th>
-                            <th>Author</th>
+                            <th className='noteTitle'>Title</th>
+                            <th className='noteTitle'>Description</th>
+                            <th className='noteTitle'>Author</th>
                             </tr>
                         </thead>
                         <tbody>
                             {notes.map((note,index)=>(
                                 <tr key={note.id}>
                                 <td>{index+1}</td>
-                                <td>{note.title}</td>
-                                <td>{note.description}</td>
-                                <td>{note.author}</td>
+                                <td className='noteTitle'>{note.title}</td>
+                                <td className='noteTitle'>{note.description}</td>
+                                <td className='noteTitle'>{note.author}</td>
                                 </tr>
                             ))}
                         </tbody>

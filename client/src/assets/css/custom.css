@@ -15,18 +15,24 @@
 }
 
 .profilePageText {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     font-weight: 400;
 }
 
 .profilePageButtonText {
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     font-weight: 400;
 }
 
 .loginPageRegisterText {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+
+.noteTitle {
     font-size: 18px;
     color: black;
     font-weight: 400;
