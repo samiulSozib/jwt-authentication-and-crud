@@ -1,0 +1,33 @@
+.loginLabelText {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+
+.navigationItem {
+    text-decoration: none;
+}
+
+.addNotesText {
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+}
+
+.profilePageText {
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+}
+
+.profilePageButtonText {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+}
+
+.loginPageRegisterText {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
